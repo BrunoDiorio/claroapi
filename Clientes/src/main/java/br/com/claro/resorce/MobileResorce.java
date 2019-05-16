@@ -18,7 +18,6 @@ import br.com.claro.model.Mobile;
 import br.com.claro.service.MobileService;
 import io.swagger.annotations.Api;
 
-@Api(description="a")
 @RestController
 @RequestMapping("/claro/mobile")
 public class MobileResorce {
