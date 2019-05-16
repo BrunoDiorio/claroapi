@@ -1,4 +1,4 @@
-package br.com.claro.resorce;
+package br.com.claro.controller;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.claro.model.Mobile;
 import br.com.claro.service.MobileService;
-import io.swagger.annotations.Api;
 
 @RestController
 @RequestMapping("/claro/mobile")
