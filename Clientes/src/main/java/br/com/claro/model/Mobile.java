@@ -2,6 +2,7 @@ package br.com.claro.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 
 import org.springframework.beans.factory.config.BeanDefinition;
@@ -30,6 +31,7 @@ public class Mobile extends GenericModel implements Serializable{
 	private static final long serialVersionUID = -8671539270457887826L;
 
 	private String model;
+	@Column(unique=true)
 	private String code;
 	private int    price;
 	private String brand;
